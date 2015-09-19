@@ -14,5 +14,5 @@ int main()
     cout<<"7. View List"<<endl;
     cout<<"8. Search Element"<<endl;
 
-    return 0;
+    getch();
 }
