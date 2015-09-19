@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 #define next(p) (p)->next
-#define dat(p) (p)->dat
+#define data(p) (p)->data
 #define first(l) ((l).first)
 
 using namespace std;
