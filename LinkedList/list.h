@@ -1,5 +1,16 @@
 #ifndef LIST_H_INCLUDED
 #define LIST_H_INCLUDED
+#include <iostream>
+#include <conio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+#define next(p) (p)->next
+#define dat(p) (p)->dat
+#define first(l) ((l).first)
+
+using namespace std;
 
 typedef struct kelas {
     char id[10];
