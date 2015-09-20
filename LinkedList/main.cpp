@@ -14,7 +14,7 @@ int main()
     cout<<"pilihan : "
     int plh;
     cin>>plh;
-    switch (pil){
+    switch (plh){
         case 1 : insertfirst(l,p); break;
         case 2 : insertafter(q,p); break;
         case 3 : insertlast(l,p); break;
