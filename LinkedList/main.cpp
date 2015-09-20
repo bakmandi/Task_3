@@ -11,26 +11,17 @@ int main()
     cout<<"4. Delet First"<<endl;
     cout<<"5. Delete After"<<endl;
     cout<<"6. Delete Last"<<endl;
-    char plh;
+    cout<<"pilihan : "
+    int plh;
     cin>>plh;
-    if (plh=='1'){
-        insertfirst(l,p);
+    switch (pil){
+        case 1 : insertfirst(l,p); break;
+        case 2 : insertafter(q,p); break;
+        case 3 : insertlast(l,p); break;
+        case 4 : deletefirst(l,p); break;
+        case 5 : deleteafter(q,p); break;
+        case 6 : deletelast(l,p); break;
+        default : cout<<"pilihan tidak ada..."; break;
     }
-    if (plh=='2'){
-        insertafter(q,p);
-    }
-    if (plh=='3'){
-        insertlast(l,p);
-    }
-    if (plh=='4'){
-        deletefirst(l,p);
-    }
-    if (plh=='5'){
-        deleteafter(q,p);
-    }
-    if (plh=='6'){
-        deletelast(l,p);
-    };
-
     getch();
 }
