@@ -26,9 +26,9 @@ int main()
     cout<<"4. Delete After"<<endl;
     cout<<"5. Delete Last"<<endl;
     cout<<"pilihan : "
-    int plh;
-    cin>>plh;
-    switch (plh){
+    int pil;
+    cin>>pil;
+    switch (pil){
         case 1 : insertafter(q,p); break;
         case 2 : insertlast(l,p); break;
         case 3 : deletefirst(l,p); break;
