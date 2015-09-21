@@ -11,21 +11,18 @@ int main()
     insertfirst(&l, p);
 
     cout<<"input data pertama kali : "<<endl;
-    cout<<"ID Barang : ";
+    cout<<"ID Pemegang Asuransi : ";
     cin>>x.id;
-    cout<<"Nama Barang : ";
-    cin>>x.nama;
-    cout<<"Warna Barang : ";
-    cin>>x.warna;
-    cout<<"Merk Barang : ";
-    cin>>x.merk;
-    cout<<"Harga Barang : ";
-    cin>>x.harga;
+    cout<<"Jumlah Tabungan  Asuransi : ";
+    cin>>x.tabungan_asuransi;
+    cout<<"Jenis/Kelas Asuransi : ";
+    cin>>x.jenis_asuransi;
+
     p=alokasi(x);
     cout<<"Menu pengolahan data Asuransi Kendaraan : "<< endl;
     cout<<"1. Insert After"<<endl;
     cout<<"2. Insert Last"<<endl;
-    cout<<"3. Delet First"<<endl;
+    cout<<"3. Delete First"<<endl;
     cout<<"4. Delete After"<<endl;
     cout<<"5. Delete Last"<<endl;
     cout<<"pilihan : "
