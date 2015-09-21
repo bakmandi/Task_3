@@ -9,6 +9,24 @@ int main()
     list l;
     createlist(&l);
     insertfirst(&l, p);
+    {
+            infotype x;
+            list l;
+            address p;
+            
+            create list(l);
+            
+            input data(x);
+            p=alokasi(x);
+            InsertFirst(l,p);
+            
+            input data(x);
+            p=alokasi(x);
+            InsertLast(l,p);
+            
+            printInfo(l);
+            
+    }
 
     cout<<"input data pertama kali : "<<endl;
     cout<<"ID Barang : ";
