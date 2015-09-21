@@ -22,7 +22,7 @@ int main()
     cout<<"Harga Barang : ";
     cin>>x.harga;
     p=alokasi(x);
-    cout<<"Menu Asuransi Kendaraan"<< endl;
+    cout<<"Menu pengolahan data Asuransi Kendaraan : "<< endl;
     cout<<"1. Insert After"<<endl;
     cout<<"2. Insert Last"<<endl;
     cout<<"3. Delet First"<<endl;
